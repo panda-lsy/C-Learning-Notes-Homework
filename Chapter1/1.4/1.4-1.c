@@ -21,7 +21,10 @@ int main(){
         //printf("%d",choice);
         try_count++;
     }
-    if (choice==1){
+    if (choice==0){
+        return 0;
+    }
+    else if (choice==1){
         printf("请输入加数的数量\n");
         scanf("%d",&choice);
         printf("请输入N个加数,用空格分隔\n");
@@ -33,8 +36,14 @@ int main(){
         }
         
     }
-    if (choice==0){
-        return 0;
+    else if (choice==2){
+        printf("减法\n");
+    }
+    else if (choice==3){
+        printf("乘法\n");
+    }
+    else if (choice==4){
+        printf("除法\n");
     }
 
 }
