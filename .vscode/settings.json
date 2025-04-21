@@ -16,7 +16,9 @@
         "random": false
     },
     "files.associations": {
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "math.h": "c",
+        "limits": "c"
     },
     "github.copilot.enable": {
         "*": false,

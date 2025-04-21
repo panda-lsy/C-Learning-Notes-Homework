@@ -25,7 +25,6 @@ void init_ui(){
         return 0;
     } else if (choice == 1) {
        addTest();
-       return 0;
     } else if (choice == 2) {
         printf("减法\n");
     } else if (choice == 3) {
@@ -63,6 +62,8 @@ void addTest(){
 }
 
 int main(){
-    init_ui();
-    return 0;
+    while (1){
+        init_ui();
+        return 0;
+    }
 }
